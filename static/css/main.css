@@ -1,0 +1,18 @@
+.demonstration {
+	font-size: 16px;
+	line-height: 20px;
+	color: rgba(0,0,0,85);
+	margin-left: 40px;
+}
+
+.block {
+	display: flex;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+}
+
+.el-table{
+	font-size: 16px;
+}

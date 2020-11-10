@@ -1,0 +1,92 @@
+/* layer的样式 */
+.layer_Data .layui-layer {
+	background-color: rgba(6, 34, 99, 0.3) !important;
+	/* background-color: rgba(44,62,80,0.3) !important; */
+}
+
+/* .layer_Data .layui-layer .layui-layer-title {
+	font-size: 18px; */
+	/* background-color: rgba(6, 34, 99, 0.1); */
+	/* background-color: rgba(255,255,255,0.1) !important;
+	color: white;
+	border-bottom: none;
+	padding: 0;
+} */
+
+.el-select-dropdown {
+	z-index: 20000000 !important;
+}
+
+.el-tooltip__popper{
+	z-index: 20000000 !important;
+}
+
+.left_herder{
+	margin-top: 15px;
+}
+
+.left_herder .el-input--suffix .el-input__inner {
+	padding: 5px;
+	height: 30px;
+}
+
+.left_herder .el-input__icon{
+	line-height: 30px;
+}
+
+.left_herder .el-icon-refresh:hover{
+	color: #409EFF;
+	cursor: pointer;
+}
+
+/* -----------------------分界线------------------------ */
+
+/* 地图上自定义弹窗的样式 */
+.content-window-card {
+	position: relative;
+	text-align: left;
+	box-shadow: none;
+	bottom: 0;
+	left: 0;
+	width: auto;
+	padding: 0;
+}
+
+.custom-info {
+	border: solid 1px rgba(0,0,0,0.2);
+	/* border-radius: 10px; */
+}
+
+div.info-top {
+	position: relative;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+	/* border-radius: 10px 10px 0px 0px; */
+	/* background-color: rgba(0,0,0,0.2); */
+	background-color: white;
+}
+
+div.info-top div {
+	display: inline-block;
+	/* color: #FFFFFF; */
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 31px;
+	padding: 0 10px;
+}
+
+div.info-middle {
+	font-size: 12px;
+	padding: 10px 6px;
+	line-height: 20px;
+	/* color: #FFFFFF; */
+	/* border-radius: 0px 0px 10px 10px; */
+}
+
+div.info-bottom {
+	height: 0px;
+	width: 100%;
+	clear: both;
+	text-align: center;
+	opacity: 0.3;
+}
+
